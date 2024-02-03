@@ -18,7 +18,6 @@ Add Me There And I will Ruined Group 👻!__
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [Aadil](https://t.me/aadillllll)
 
 Type /help For Commands!
 """
@@ -31,7 +30,6 @@ __This Is BanAll Bot\nOnly My Owner Can Access This Bot👻!__
 **My lib's Info!**
 ❍ Python Version » `{}`
 ❍ Telethon Version » `{}`
-❍ Code Owner » [ＹＯUＲ ＣＲUＳＨ،"(💛](https://t.me/aadillllll)
 """
 
 hlptxt = """ Meow [{}](tg://user?id={}),
