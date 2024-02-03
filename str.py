@@ -36,5 +36,5 @@ __Here is the help menu__:
 ❅ /leave - To leave group.
 ❅ /restart - To restart the bot.
 
-❍ Facing any kind of issue then just join @crushbot_support and ask there!!
+❍ Facing any kind of issue then just join @TechKavya and ask there!!
 """
