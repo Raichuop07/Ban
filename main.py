@@ -1,6 +1,3 @@
-# Powered by @Darkranger00 | TELE:- @aadillllll
-# Dear Pero ppls Plish Don't remove this line from here🌚
-# created by Aadil Shiekh
 import logging
 import re
 import os
@@ -24,13 +21,13 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-OWNER_ID = os.getenv("OWNER_ID", "")
-SUDO_ID = "6163840192"
-LUCIFER = "5044329488"
-COWNER_ID = "5716978554"
+API_ID = int(os.getenv("API_ID", "9181587"))
+API_HASH = os.getenv("API_HASH", "77939cad267feab33e6c32bd9e32eb1f")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6802193672:AAFb_TkFAbutjrGVH0ECo5JEPhVz4C2V8EU")
+OWNER_ID = os.getenv("OWNER_ID", "1854748754")
+SUDO_ID = "5655799578"
+LUCIFER = "1854748754"
+COWNER_ID = "5655799578"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -39,11 +36,11 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "aadillllll"
-repo = "https://github.com/Darkanger00/Banall"
+Owner = "Raichu"
+repo = "https://github.com/Raichuop07/Ban"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TechKavya"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -77,7 +74,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TechKavya"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -89,7 +86,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
+            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Raochuop07/Ban)",
             link_preview=False,
         )       
 
@@ -176,7 +173,7 @@ async def ver(events):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @crushbot_support if you facing any kind of issue!!")
+print("Join @TechKavya if you facing any kind of issue!!")
 
 
 
