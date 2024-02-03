@@ -74,7 +74,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TechKavya"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/TechKavya")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
